@@ -3,5 +3,20 @@ body{
 }
 nav{
     background-color: #F564A9;
+
+}
+
+.nav-opciones{
+    display: flex;
+    justify-content: end;
+    color: aqua;
+    flex-direction: row-reverse;
+    gap: 20px;
     
+}
+
+ul{
+    list-style: none;
+   width: fit-content;
+   height: fit-content;
 }
