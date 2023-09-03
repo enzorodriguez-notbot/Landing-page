@@ -13,26 +13,23 @@ body{
 }
 
 .header{
-    background-color: #8ecae6;
+    background-color: #cdeac0;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 85px;
+    height: 70px;
     padding: 5px 10%;
 }
 
 .header .logo img{
     height: 70px;
     width: auto;
-    transition: all 0,3s;
-}
-
-.header .logo img:hover{
-    transform: scale(1,2);
+    transition: all 0.3s;
+    
 }
 
 .header .logo{
-    cursor: pointer;
+ 
     margin-right: auto;
 }
 
@@ -46,7 +43,7 @@ body{
 }
 
 .header .nav-links li:hover{
-    transform: scale(1,2);
+    transform: scale(1.2);
 }
 
 .header .nav-links a{
