@@ -9,13 +9,13 @@
 }
 
 body{
-    background-color: #023047;
+    background-color: white;
 }
 
 .header{
-    background-color: #fb8500;
+    background-color: #8ecae6;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     height: 85px;
     padding: 5px 10%;
@@ -33,6 +33,30 @@ body{
 
 .header .logo{
     cursor: pointer;
+    margin-right: auto;
 }
 
+.header .nav-links{
+    list-style: none;
+}
 
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1,2);
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.header .nav-links li a:hover{
+    color: black;
+    
+}
